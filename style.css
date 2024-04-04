@@ -3,11 +3,11 @@
 
 :root{
     --cor-de-fundo: #2b4668;
-    --verde: #b8d4b3;
+    --verde: #3e413e;
     --branco: #971717;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativo: #b4b0e2;
+    --botao-inativo: rgba(177, 176, 184, 0.5);
+    --texto-fundo: rgba(198, 198, 201, 0.3);
 }
 
 body{
@@ -84,6 +84,11 @@ body{
     color: var(--verde);
     text-transform: uppercase;
  }
+
+   .contato{
+    font-size: 20px;
+    text-align: center;
+   }
 
  @media screen and (min-width: 768px) {
     .botoes{
